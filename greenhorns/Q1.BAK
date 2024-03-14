@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	int c,f;
+	clrscr();
+	printf("Enter Temperature Value:");
+	scanf("%d", & c);
+	f = (c*1.8)+32;
+	printf("F=%d\n",f);
+	getch();
+}
+
+
+
+
+
+
+
+
+
