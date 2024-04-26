@@ -37,59 +37,6 @@ void ModulasOf(int a, int b)
     printf("%d Modulus %d = %d\n",a,b,a%b);
 }
 
-void cube(int a)
-{
-    printf("Enter Number : ");
-    scanf("%d",&a);
-    printf("Cube Of %d is : %d\n",a,a*a*a);
-}
-
-void check(int a)
-{
-    printf("Enter Number : ");
-    scanf("%d",&a);
-    if(a%3==0 && a%5 ==0)
-    {
-        printf("%d is Divisible by 3 and 5 Both",a);
-    }
-    else
-	{ 
-		printf("%d is not Divisible By 3 and 5 Both",a);
-	}
-}
-
-int GetInt(int a)
-{
-	printf("Enter Value:");
-	scanf(%d,&a);
-}
-
-int ArrayName(char name[],int index)
-{
-    int n;
-    printf("Enter %s[%d] : ",name,index);
-    scanf("%d",&n);
-    return n;
-}
-void ArrayIndex(int a[], int n)
-{
-	int i;
-    for(i=0; i<n; i++)
-    {
-        a[i]=ArrayName("array",i);
-    }
-}
-void ArrayElements(int a[], int n)
-{
-	int i;
-    printf("Array Elements : \n");
-    for(i=0;i<n;i++)
-    {
-        printf("%d ",a[i]);
-    }
-    printf("\n");
-}
-
 void MenuDrivenProgram(int n)
 
 {

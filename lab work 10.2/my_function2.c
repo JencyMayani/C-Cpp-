@@ -58,38 +58,6 @@ void check(int a)
 	}
 }
 
-int GetInt(int a)
-{
-	printf("Enter Value:");
-	scanf(%d,&a);
-}
-
-int ArrayName(char name[],int index)
-{
-    int n;
-    printf("Enter %s[%d] : ",name,index);
-    scanf("%d",&n);
-    return n;
-}
-void ArrayIndex(int a[], int n)
-{
-	int i;
-    for(i=0; i<n; i++)
-    {
-        a[i]=ArrayName("array",i);
-    }
-}
-void ArrayElements(int a[], int n)
-{
-	int i;
-    printf("Array Elements : \n");
-    for(i=0;i<n;i++)
-    {
-        printf("%d ",a[i]);
-    }
-    printf("\n");
-}
-
 void MenuDrivenProgram(int n)
 
 {
