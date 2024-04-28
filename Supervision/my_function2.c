@@ -14,6 +14,12 @@ void getint()
 	printf("Enter value:");
 	scanf("%d",&a);
 }
+void getfloat()
+{
+	float a;
+	printf("Enter Value:");
+	scanf("%f",&a);
+}
 
 void SubOf(int a,int b)
 {
